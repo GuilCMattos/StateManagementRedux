@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Card from './components/Card';
+
 import Interval from './components/Interval';
+import Media from './components/Media';
+import Soma from './components/Soma';
+import Sort from './components/Sort';
 
 function App() {
   return (
@@ -14,9 +17,10 @@ function App() {
       </div>
 
       <div className='linha'>
-      <Card title="Card 2" green> X </Card>
-      <Card title="Card 3" blue> Y </Card>
-      <Card title="Card 4" purple> X </Card>
+      <Media />
+      <Soma />
+      <Sort />
+
       </div>
     
     </div>
